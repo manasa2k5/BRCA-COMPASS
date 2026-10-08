@@ -1,0 +1,6 @@
+,val_mean,val_std,train_mean
+roc_auc,0.9985,0.0005,0.9999
+pr_auc,0.9989,0.0004,
+f1,0.9843,0.003,
+mcc,0.9663,0.0063,
+balanced_accuracy,0.9835,0.0028,

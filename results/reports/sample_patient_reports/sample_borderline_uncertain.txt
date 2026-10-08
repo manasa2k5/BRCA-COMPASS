@@ -1,0 +1,45 @@
+SCENARIO: BORDERLINE / UNCERTAIN
+====================================================================
+
+====================================================================
+BRCA1 VARIANT REPORT
+====================================================================
+Variant  : NM_007294.4(BRCA1):c.670+2T>C
+ID       : 3481785
+
+────────────────────────────────────────────────────────────────────
+SECTION 1 — TECHNICAL SUMMARY  (For Healthcare Providers)
+────────────────────────────────────────────────────────────────────
+  Predicted Class        : Pathogenic
+  Pathogenic Probability : 49.8%
+  Confidence             : Low
+
+  Top SHAP Features (driving factors):
+    1. is_canonical_splice_site
+    2. is_likely_lof
+    3. review_strength
+    4. num_submitters
+    5. variant_type_encoded
+
+  ACMG/AMP Evidence Codes:
+    • PS3   — Functional evidence (Moderate Pathogenic)
+
+────────────────────────────────────────────────────────────────────
+SECTION 2 — EXPLANATION IN PLAIN LANGUAGE
+────────────────────────────────────────────────────────────────────
+
+About your BRCA1 variant: BRCA1:c.670+2T>C
+
+The analysis found a slight lean toward this variant being potentially harmful, but the evidence is not strong. The model is not highly certain in this direction.
+
+Here is what the model found about this specific variant:
+
+  • This variant affects the signals that tell the cell how to correctly read and process the BRCA1 gene — disrupting these signals can prevent the correct protein from being made.
+  • This type of genetic change is strongly predicted to stop the BRCA1 protein from working normally — this is one of the strongest signals for a harmful variant.
+  • There is existing clinical evidence that helped inform this prediction.
+  • Multiple independent laboratories have reported this variant, increasing confidence in the assessment.
+  • The variant type encoded of this variant contributed evidence toward the harmful prediction.
+
+The signals for this particular variant are not strong enough to be certain in either direction. More information — such as family history or laboratory testing — would help clarify the meaning of this result.
+
+====================================================================

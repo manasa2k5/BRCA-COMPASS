@@ -1,0 +1,46 @@
+SCENARIO: MEDIUM-CONFIDENCE PATHOGENIC
+====================================================================
+
+====================================================================
+BRCA1 VARIANT REPORT
+====================================================================
+Variant  : NM_007294.4(BRCA1):c.548-1G>A
+ID       : 2778487
+
+────────────────────────────────────────────────────────────────────
+SECTION 1 — TECHNICAL SUMMARY  (For Healthcare Providers)
+────────────────────────────────────────────────────────────────────
+  Predicted Class        : Pathogenic
+  Pathogenic Probability : 84.4%
+  Confidence             : Medium
+
+  Top SHAP Features (driving factors):
+    1. is_canonical_splice_site
+    2. is_likely_lof
+    3. num_submitters
+    4. BayesDel_addAF
+    5. CADD_phred
+
+  ACMG/AMP Evidence Codes:
+    • PP3   — Computational evidence (Supporting Pathogenic)
+    • PS3   — Functional evidence (Moderate Pathogenic)
+
+────────────────────────────────────────────────────────────────────
+SECTION 2 — EXPLANATION IN PLAIN LANGUAGE
+────────────────────────────────────────────────────────────────────
+
+About your BRCA1 variant: BRCA1:c.548-1G>A
+
+The analysis found several signs that this BRCA1 variant may affect the normal function of the gene. The model is fairly confident in this assessment, though some uncertainty remains.
+
+Here is what the model found about this specific variant:
+
+  • This variant affects the signals that tell the cell how to correctly read and process the BRCA1 gene — disrupting these signals can prevent the correct protein from being made.
+  • This type of genetic change is strongly predicted to stop the BRCA1 protein from working normally — this is one of the strongest signals for a harmful variant.
+  • Multiple independent laboratories have reported this variant, increasing confidence in the assessment.
+  • This variant scored high on a tool that measures how likely a DNA change is to cause harm.
+  • This variant received a high severity score based on its genomic context.
+
+These findings suggest a possible concern, but some of the signals are mixed for this particular variant. Talking to a genetics specialist would help clarify what this result means for you personally.
+
+====================================================================

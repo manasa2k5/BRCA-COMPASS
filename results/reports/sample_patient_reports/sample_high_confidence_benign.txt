@@ -1,0 +1,44 @@
+SCENARIO: HIGH-CONFIDENCE BENIGN
+====================================================================
+
+====================================================================
+BRCA1 VARIANT REPORT
+====================================================================
+Variant  : NM_007294.4(BRCA1):c.4117G>A (p.Glu1373Lys)
+ID       : 2836573
+
+────────────────────────────────────────────────────────────────────
+SECTION 1 — TECHNICAL SUMMARY  (For Healthcare Providers)
+────────────────────────────────────────────────────────────────────
+  Predicted Class        : Benign
+  Pathogenic Probability : 2.9%
+  Confidence             : High
+
+  Top SHAP Features (driving factors):
+    1. is_likely_lof
+    2. variant_type_encoded
+    3. VEST4_score
+    4. in_disordered_region
+    5. cons_snv
+
+  ACMG/AMP: No specific evidence codes triggered
+
+────────────────────────────────────────────────────────────────────
+SECTION 2 — EXPLANATION IN PLAIN LANGUAGE
+────────────────────────────────────────────────────────────────────
+
+About your BRCA1 variant: p.Glu1373Lys
+
+The analysis found very strong signs that this BRCA1 variant is unlikely to affect how the gene works. Out of 100 similar variants in our reference data, about 97 would be considered harmless.
+
+Here is what the model found about this specific variant:
+
+  • This genetic change is not predicted to completely disrupt BRCA1 protein function.
+  • The variant type encoded of this variant contributed evidence toward the harmless prediction.
+  • This variant scored low on a tool that identifies disease-causing changes.
+  • This variant is in a flexible, unstructured part of the BRCA1 protein where changes are often better tolerated.
+  • This is a single letter change in the DNA that appears harmless.
+
+For this specific variant, the combination of features consistently points toward it being harmless. The model found no strong signals of concern.
+
+====================================================================

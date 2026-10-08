@@ -1,0 +1,2 @@
+Dataset,N,N_LOF,N_FUNC,ROC_AUC,PR_AUC,Accuracy,Precision,Recall,F1,MCC,Balanced_Acc,Missense_AUC,Missense_MCC,Spearman_rho,Pearson_r
+Findlay_SGE_V2_with_dbNSFP,3644,823,2821,0.8366,0.7311,0.848,0.8968,0.3694,0.5232,0.5139,0.6785,0.9041,0.4886,0.4032,0.5895

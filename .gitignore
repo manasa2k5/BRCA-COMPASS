@@ -1,0 +1,51 @@
+# =========================
+# Python
+# =========================
+venv/
+__pycache__/
+*.py[cod]
+
+# =========================
+# Environment / secrets
+# =========================
+.env
+.env.*
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Datasets
+# =========================
+data/raw/
+data/processed/
+data/external/
+
+# =========================
+# Large models
+# =========================
+models/autogluon/
+
+# =========================
+# Model artifacts
+# =========================
+*.pt
+*.pth
+*.h5
+*.onnx
+
+# =========================
+# Patient-specific outputs
+# =========================
+results/patients/
+results/reports/full_vus_reports/
+
+# =========================
+# Temporary files
+# =========================
+*.tmp
+*.log
+# VUS prediction outputs
+results/vus/

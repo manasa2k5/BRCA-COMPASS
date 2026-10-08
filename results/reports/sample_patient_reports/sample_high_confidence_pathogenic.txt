@@ -1,0 +1,45 @@
+SCENARIO: HIGH-CONFIDENCE PATHOGENIC
+====================================================================
+
+====================================================================
+BRCA1 VARIANT REPORT
+====================================================================
+Variant  : NM_007294.4(BRCA1):c.3699del (p.Lys1233_Val1234insTer)
+ID       : 54965
+
+────────────────────────────────────────────────────────────────────
+SECTION 1 — TECHNICAL SUMMARY  (For Healthcare Providers)
+────────────────────────────────────────────────────────────────────
+  Predicted Class        : Pathogenic
+  Pathogenic Probability : 96.9%
+  Confidence             : High
+
+  Top SHAP Features (driving factors):
+    1. is_likely_lof
+    2. variant_type_encoded
+    3. cons_splice
+    4. in_disordered_region
+    5. gnomAD_AF
+
+  ACMG/AMP Evidence Codes:
+    • PVS1  — Loss of function (Very Strong Pathogenic)
+
+────────────────────────────────────────────────────────────────────
+SECTION 2 — EXPLANATION IN PLAIN LANGUAGE
+────────────────────────────────────────────────────────────────────
+
+About your BRCA1 variant: p.Lys1233_Val1234insTer
+
+The analysis of this specific BRCA1 variant found very strong signs that it may affect how the BRCA1 gene works. Out of 100 similar variants in our reference data, about 96 would be classified as harmful.
+
+Here is what the model found about this specific variant:
+
+  • This type of genetic change is strongly predicted to stop the BRCA1 protein from working normally — this is one of the strongest signals for a harmful variant.
+  • The variant type encoded of this variant contributed evidence toward the harmful prediction.
+  • This variant is predicted to interfere with how the BRCA1 gene is spliced together before being translated into protein.
+  • This variant is in a flexible, unstructured part of the BRCA1 protein.
+  • This variant is extremely rare or has never been observed in the general healthy population, which is consistent with disease-causing variants.
+
+Taken together, these findings point clearly in one direction for this particular variant. The model is highly confident based on the combination of signals seen specifically in this variant. A review by a genetics specialist is recommended.
+
+====================================================================
